@@ -1,5 +1,5 @@
 # domletters — count dominant letters
-<Your Name> and Bart Massey 2021
+Greg Hairfield and Bart Massey 2021
 
 This repository contains a program that counts dominant
 letters in alphabetic words of an ASCII text read from
@@ -61,7 +61,8 @@ where `input.txt` is the input file to be processed.
 
 When run using the file `sentence.txt` in this distribution,
 the program will produce a dominant letter count of 20. When
-run on `swift.txt` it will produce 71.
+run on `swift.txt` it will produce 71. `barack-obama.txt` should
+produce 35.
 
 ## Acknowledgements
 
@@ -70,6 +71,9 @@ text of
 [Tom Swift and His Airship](https://www.gutenberg.org/cache/epub/3005/pg3005.txt),
 from which the file `swift.txt` in this distribution was
 taken.
+
+Thanks to [HubSpot](https://blog.hubspot.com/sales/famous-quotes) from which
+the [Barack Obama](barack-obama.txt) quote was obtained.
 
 ## License
 
